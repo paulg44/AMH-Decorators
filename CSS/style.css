@@ -220,10 +220,7 @@ span {
 }
 
 .contact-links i {
-  position: absolute;
   color: var(--bright-color);
-  top: -35px;
-  margin-left: -30px;
 }
 
 .contact-links p {
@@ -241,6 +238,88 @@ span {
 .contact-links a:hover {
   color: var(--bright-color);
   border-bottom: 1px solid var(--light-color);
+}
+
+/* Contact Icon Animations */
+.contact-links .fa-envelope {
+  animation: shake 2s ease-in 1s 2 forwards;
+}
+
+@keyframes shake {
+  30% {
+    transform: scale(1.2);
+  }
+  40% {
+    transform: rotate(-20deg) scale(1.2);
+  }
+  50% {
+    transform: rotate(20deg) scale(1.2);
+  }
+  70% {
+    transform: rotate(0deg) scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.contact-links .fa-phone {
+  animation: ring 2s ease-in 4s 2 forwards;
+}
+
+@keyframes ring {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-3px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(3px);
+  }
+}
+
+.contact-links .fa-thumbs-up {
+  animation: pulse 2s ease-in 7.5s 2 forwards;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+/* Our Work */
+.panel-container {
+  display: flex;
+  width: 90vw;
+}
+
+.panel {
+  background: url(/IMG/AMH\ Main.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+}
+
+.panel.active {
+  flex: 5;
 }
 
 /* footer */

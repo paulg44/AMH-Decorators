@@ -126,6 +126,7 @@ span {
 
 .homepage-content p {
   position: absolute;
+  background-color: var(--dark-color);
   font-size: 1.25rem;
   top: 170px;
   left: 400px;
@@ -301,25 +302,61 @@ span {
 }
 
 /* Our Work */
+.our-work-top-p {
+  text-align: center;
+  color: var(--dull-color);
+  padding-top: 20px;
+}
+
 .panel-container {
   display: flex;
   width: 90vw;
+  margin-bottom: 20px;
 }
 
 .panel {
-  background: url(/IMG/AMH\ Main.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   height: 80vh;
   cursor: pointer;
   flex: 0.5;
   margin: 10px;
   position: relative;
+  border-radius: 20px;
+  transition: flex 0.7s ease-in;
+  opacity: 0.6;
+}
+
+.panel p {
+  position: absolute;
+  text-align: center;
+  bottom: 20px;
+  padding: 0 20px;
+  opacity: 0;
+}
+
+.panel.active p {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.8s;
 }
 
 .panel.active {
   flex: 5;
+  opacity: 1;
+}
+
+.panel-one {
+  background: url(/IMG/panel-1.jpg) no-repeat center center/cover;
+}
+.panel-two {
+  background: url(/IMG/panel-2.jpg) no-repeat center center/cover;
+}
+.panel-three {
+  background: url(/IMG/panel-3.jpg) no-repeat center center/cover;
+}
+.panel-four {
+  background: url(/IMG/panel-4.jpg) no-repeat center center/cover;
+}
+.panel-five {
+  background: url(/IMG/panel-5.jpg) no-repeat center center/cover;
 }
 
 /* footer */

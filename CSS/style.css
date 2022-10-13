@@ -76,13 +76,13 @@ span {
   border: 4px solid var(--bright-color);
   border-radius: 10px;
   padding: 40px;
-  margin: 0 20px;
+  margin: 0px 20px;
 }
 /* Navbar */
 #nav-bar {
   position: sticky;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   height: 50px;
   margin-top: 10px;
   background: var(--dark-color);
@@ -185,15 +185,6 @@ span {
   padding: 20px;
 }
 
-.services-cards .card h3 {
-  border-bottom: 2px solid var(--bright-color);
-  padding: 10px;
-}
-
-.services-cards .decor h3 {
-  border-bottom: 2px solid var(--dull-color);
-}
-
 .services-cards .card:nth-child(odd) {
   border: 4px solid var(--dull-color);
 }
@@ -202,6 +193,12 @@ span {
   font-size: 2rem;
   margin-bottom: 15px;
   letter-spacing: 0.3px;
+  border-bottom: 2px solid var(--bright-color);
+  padding: 10px;
+}
+
+.services-cards .decor h3 {
+  border-bottom: 2px solid var(--dull-color);
 }
 
 .service-icons {
@@ -245,9 +242,6 @@ span {
 }
 
 /* Contact */
-.contact-content h2 {
-  text-align: center;
-}
 
 .contact-links {
   display: flex;

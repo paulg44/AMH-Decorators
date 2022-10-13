@@ -1,0 +1,118 @@
+/* Smartphones */
+@media (max-width: 600px) {
+  /* Utilites */
+  * {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .page-header h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .card {
+    font-size: 12px;
+    margin-bottom: 25px;
+  }
+
+  /* Navbar */
+  #nav-bar {
+    display: block;
+    top: 20px;
+  }
+
+  .nav-bar-links ul {
+    justify-content: center;
+  }
+
+  .nav-bar-links li {
+    font-size: 10px;
+    padding: 4px;
+  }
+
+  /* Homepage */
+  .homepage {
+    background-position: right 100px top 20px;
+  }
+
+  .homepage-content h1,
+  .homepage-content p,
+  .homepage-content .contact-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .homepage-content h1 {
+    top: 50px;
+    left: 0;
+    margin: 0 20px;
+    font-size: 3rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .homepage-content p {
+    background-color: transparent;
+    top: 240px;
+    left: 37px;
+    margin: 0 20px;
+    font-size: 1rem;
+  }
+  .homepage-content .contact-btn {
+    top: 340px;
+    left: 107px;
+    margin: 0 20px;
+  }
+
+  .homepage-content .contact-btn:active {
+    background-color: var(--bright-color);
+    transform: scale(0.8);
+  }
+
+  /* About & Services*/
+  .about-cards,
+  .services-cards,
+  .service-icons {
+    flex-direction: column;
+  }
+
+  /* Services */
+  /* Contact */
+  .contact-links {
+    flex-direction: column;
+    margin: 20px 40px;
+  }
+
+  .contact-links .fa-envelope,
+  .contact-links .fa-phone,
+  .contact-links .fa-thumbs-up {
+    animation: shake 2s ease-in infinite;
+  }
+
+  /* Our Work 2 */
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .img-container img {
+    width: 100%;
+  }
+
+  .img-container p {
+    padding: 0 15px;
+  }
+
+  /* Footer */
+  .footer-content {
+    text-align: start;
+  }
+}

@@ -92,6 +92,15 @@
     animation: shake 2s ease-in infinite;
   }
 
+  /* Our Work */
+  .panel {
+    height: 50vh;
+  }
+
+  .panel p {
+    font-size: 12px;
+  }
+
   /* Our Work 2 */
   .grid-container {
     display: flex;

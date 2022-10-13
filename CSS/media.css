@@ -33,7 +33,7 @@
 
   /* Homepage */
   .homepage {
-    background-position: right 100px top 20px;
+    background-position: right -200px top 20px;
   }
 
   .homepage-content h1,
@@ -56,14 +56,14 @@
 
   .homepage-content p {
     background-color: transparent;
-    top: 240px;
-    left: 37px;
+    top: 275px;
+    left: 0;
     margin: 0 20px;
     font-size: 1rem;
   }
   .homepage-content .contact-btn {
-    top: 340px;
-    left: 107px;
+    top: 405px;
+    left: 0;
     margin: 0 20px;
   }
 
@@ -121,7 +121,13 @@
   }
 
   /* Footer */
+  .footer h3,
+  .footer li,
+  .footer p {
+    text-align: left;
+  }
+
   .footer-content {
-    text-align: start;
+    left: 0;
   }
 }

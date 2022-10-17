@@ -1,5 +1,6 @@
 'use strict';
 
+// Our Work 2 Panels
 const panels = document.querySelectorAll('.panel');
 
 panels.forEach(panel => {

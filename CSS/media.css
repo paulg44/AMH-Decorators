@@ -1,5 +1,5 @@
 /* Smartphones */
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   /* Utilites */
   * {
     text-align: center;
@@ -65,6 +65,8 @@
     top: 405px;
     left: 0;
     margin: 0 20px;
+    background-color: var(--bright-color);
+    color: var(--dark-color);
   }
 
   .homepage-content .contact-btn:active {
@@ -86,10 +88,16 @@
     margin: 20px 40px;
   }
 
-  .contact-links .fa-envelope,
-  .contact-links .fa-phone,
-  .contact-links .fa-thumbs-up {
+  .contact-links .fa-envelope {
     animation: shake 2s ease-in infinite;
+  }
+
+  .contact-links .fa-phone {
+    animation: ring 1.5s ease-in infinite;
+  }
+
+  .contact-links .fa-thumbs-up {
+    animation: pulse 2s ease-in infinite;
   }
 
   /* Our Work */
@@ -129,5 +137,47 @@
 
   .footer-content {
     left: 0;
+  }
+}
+
+/* Tablets */
+@media (max-width: 1200px) and (min-width: 651px) {
+  .homepage-content {
+    margin-top: 100px;
+  }
+
+  .about-cards,
+  .services-cards,
+  .service-icons {
+    flex-direction: column;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    margin: 20px 40px;
+  }
+
+  .card {
+    margin: 20px;
+  }
+
+  .card h3 {
+    margin: 0 160px;
+  }
+
+  .serv-icon::before {
+    opacity: 0;
+  }
+
+  .contact-links .fa-envelope {
+    animation: shake 2s ease-in infinite;
+  }
+
+  .contact-links .fa-phone {
+    animation: ring 1.5s ease-in infinite;
+  }
+
+  .contact-links .fa-thumbs-up {
+    animation: pulse 2s ease-in infinite;
   }
 }

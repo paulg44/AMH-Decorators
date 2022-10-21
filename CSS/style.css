@@ -239,6 +239,11 @@ span {
 .serv-icon i {
   padding: 20px 0;
   color: var(--dull-color);
+  transition: color 1s ease-in;
+}
+
+.serv-icon i:hover {
+  color: var(--bright-color);
 }
 
 /* Contact */

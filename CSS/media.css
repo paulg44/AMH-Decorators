@@ -82,6 +82,14 @@
   }
 
   /* Services */
+  .serv-icon h4 {
+    border-bottom: 2px solid var(--dull-color);
+  }
+
+  .serv-icon i {
+    color: var(--bright-color);
+  }
+
   /* Contact */
   .contact-links {
     flex-direction: column;

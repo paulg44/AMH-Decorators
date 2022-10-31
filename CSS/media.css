@@ -19,7 +19,9 @@
   /* Navbar */
   #nav-bar {
     display: block;
-    top: 20px;
+    top: 0px;
+    padding: 20px 0px;
+    z-index: 10;
   }
 
   .nav-bar-links ul {

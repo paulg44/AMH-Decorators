@@ -221,13 +221,13 @@ span {
 }
 
 .serv-icon::before {
-  content: '\f14a';
+  content: '\f058';
   font-weight: 900;
   font-family: 'Font Awesome 5 Free';
   font-size: 4rem;
   position: absolute;
-  bottom: -60px;
-  left: 485px;
+  bottom: -45px;
+  left: 489px;
   color: var(--bright-color);
 }
 
@@ -350,6 +350,7 @@ span {
 }
 
 /* Our Work */
+
 .our-work-top-p {
   text-align: center;
   color: var(--dull-color);
@@ -360,6 +361,11 @@ span {
   display: flex;
   width: 90vw;
   margin-bottom: 20px;
+}
+
+.panel-container h3 {
+  width: 100%;
+  text-align: center;
 }
 
 .panel {

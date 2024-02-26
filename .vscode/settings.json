@@ -1,3 +1,9 @@
 {
-  "liveServer.settings.port": 5502
+  "liveServer.settings.port": 5503,
+  "workbench.colorCustomizations": {
+    "[Monokai Pro (Filter Machine)]": {},
+    "activityBar.background": "#362D0A",
+    "titleBar.activeBackground": "#4C3F0E",
+    "titleBar.activeForeground": "#FCFAF0"
+  }
 }

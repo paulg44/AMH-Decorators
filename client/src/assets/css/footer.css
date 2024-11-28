@@ -1,0 +1,34 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  background: var(--dark-color);
+  padding: 10px;
+}
+
+.footer-content {
+  margin-left: 20px;
+}
+
+.footer-content i {
+  padding-right: 10px;
+  color: var(--bright-color);
+}
+
+.footer-content li {
+  font-size: 1.5rem;
+}
+
+.footer-content a {
+  text-transform: uppercase;
+  color: var(--dull-color);
+}
+
+.footer-content a:hover {
+  transform: scale(1.1);
+  border-bottom: 2px solid var(--bright-color);
+}
+
+.footer-content p {
+  font-size: 0.75rem;
+  color: var(--dull-color);
+}

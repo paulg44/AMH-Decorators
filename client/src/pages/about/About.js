@@ -1,16 +1,18 @@
+import "../../assets/css/about.css";
+
 function About() {
   return (
     <div className="about">
-      <div className="about-content page-header container">
+      <div className="about-content page-header">
         <h2>
           A<span>b</span>out
         </h2>
       </div>
 
-      <div className="about-info container">
+      <div className="about-info">
         <div className="about-cards">
           <div className="beginings card">
-            <h3>Beginings</h3>
+            <h3>Origins</h3>
             <p>
               Lorem ipsum dolor sit amet testing consectetur adipisicing elit.
               Eius laudantium voluptate voluptatum minima optio quibusdam

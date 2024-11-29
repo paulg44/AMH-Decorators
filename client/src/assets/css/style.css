@@ -4,27 +4,6 @@
 
 /* About */
 
-.about-cards {
-  display: flex;
-  padding: 20px;
-}
-
-.about-cards .card:nth-child(2) {
-  border: 4px solid var(--dull-color);
-}
-
-.about-cards .card h3 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-  letter-spacing: 0.3px;
-  border-bottom: 2px solid var(--dull-color);
-  padding: 10px;
-}
-
-.about-cards .vision h3 {
-  border-bottom: 2px solid var(--bright-color);
-}
-
 /* Services */
 .services-content h2 {
   text-align: end;

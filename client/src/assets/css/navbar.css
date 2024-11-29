@@ -3,9 +3,8 @@
   display: flex;
   justify-content: flex-end;
   height: 50px;
-  margin-top: 10px;
+  top: 0;
   background: var(--dark-color);
-  color: var(--light-color);
 }
 
 .navbarLinks ul {

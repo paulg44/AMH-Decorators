@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "../../assets/css/contact.css";
 
 function Contact() {
   return (
@@ -23,14 +24,6 @@ function Contact() {
             nesciunt.
           </p>
           <Link to={"/"}>07806691333</Link>
-        </div>
-        <div class="container socials card">
-          <i class="fa-solid fa-thumbs-up fa-4x"></i>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-            nesciunt.
-          </p>
-          <Link to={"#footer"}>Socials</Link>
         </div>
       </div>
     </div>

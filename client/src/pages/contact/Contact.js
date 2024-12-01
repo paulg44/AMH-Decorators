@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
 import "../../assets/css/contact.css";
+import { Link } from "react-router-dom";
+import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -10,7 +11,7 @@ function Contact() {
 
       <div id="contact-links" class="contact-links">
         <div class="container email card">
-          <i class="fa-solid fa-envelope fa-4x"></i>
+          <FaEnvelope className="fa-envelope" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
             nesciunt.
@@ -18,7 +19,7 @@ function Contact() {
           <Link to={"/"}>AMH Decorating</Link>
         </div>
         <div class="container phone card">
-          <i class="fa-solid fa-phone fa-4x"></i>
+          <FaPhone className="fa-phone" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
             nesciunt.

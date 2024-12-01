@@ -1,0 +1,76 @@
+.services-content h2 {
+  text-align: end;
+}
+
+.services-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.services-cards .card:nth-child(odd) {
+  border: 4px solid var(--dull-color);
+}
+
+.services-cards .card h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  letter-spacing: 0.3px;
+  border-bottom: 2px solid var(--bright-color);
+  padding: 10px;
+}
+
+.services-cards .decor h3 {
+  border-bottom: 2px solid var(--dull-color);
+}
+
+.service-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.service-icons .serv-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid var(--light-color);
+  border-radius: 10px;
+  margin: 20px 30px;
+  padding: 40px;
+  position: relative;
+}
+
+.serv-icon::before {
+  content: "\f058";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  font-size: 4rem;
+  position: absolute;
+  bottom: -45px;
+  left: 489px;
+  color: var(--bright-color);
+}
+
+.serv-icon h4 {
+  font-size: 1.6rem;
+  width: 70%;
+  padding-bottom: 5px;
+  color: var(--bright-color);
+  border-bottom: 2px solid var(--light-color);
+}
+
+.serv-icon i {
+  padding: 20px 0;
+  color: var(--dull-color);
+  transition: color 1s ease-in;
+}
+
+.serv-icon i:hover {
+  color: var(--bright-color);
+}

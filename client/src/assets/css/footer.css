@@ -10,7 +10,7 @@
   margin-left: 20px;
 }
 
-.footer-content i {
+.footer-content .icon {
   padding-right: 10px;
   color: var(--bright-color);
 }
@@ -32,4 +32,20 @@
 .footer-content p {
   font-size: 0.75rem;
   color: var(--dull-color);
+}
+
+@media (max-width: 650px) {
+  .footer {
+    position: relative;
+  }
+
+  .footer h6,
+  .footer li,
+  .footer p {
+    text-align: left;
+  }
+
+  .footer-content {
+    left: 0;
+  }
 }

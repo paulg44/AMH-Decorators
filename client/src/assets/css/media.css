@@ -69,15 +69,6 @@
   }
 
   /* Footer */
-  .footer h3,
-  .footer li,
-  .footer p {
-    text-align: left;
-  }
-
-  .footer-content {
-    left: 0;
-  }
 }
 
 /* Tablets */

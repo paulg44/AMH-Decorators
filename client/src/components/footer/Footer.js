@@ -1,4 +1,5 @@
 import "../../assets/css/footer.css";
+import { FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -7,7 +8,7 @@ function Footer() {
         <h6>AMH Decorating</h6>
         <ul>
           <li>
-            <i className="fa-brands fa-facebook"></i>
+            <FaFacebook className="icon" />
             <a
               href="https"
               target="blank"
@@ -18,7 +19,7 @@ function Footer() {
             </a>
           </li>
           <li>
-            <i className="fa-brands fa-instagram"></i>
+            <FaInstagram className="icon" />
             <a
               href="https"
               target="blank"
@@ -29,7 +30,7 @@ function Footer() {
             </a>
           </li>
           <li>
-            <i className="fa-brands fa-twitter"></i>
+            <FaTwitter className="icon" />
             <a
               href="https"
               target="blank"

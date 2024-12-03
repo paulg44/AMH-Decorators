@@ -23,3 +23,21 @@
 .navbarLinks a:hover {
   border-bottom: 2px solid var(--bright-color);
 }
+
+@media (max-width: 650px) {
+  .navbar {
+    display: block;
+    top: 0px;
+    padding: 20px 0px;
+    z-index: 10;
+  }
+
+  .navbarLinks ul {
+    justify-content: center;
+  }
+
+  .navbarLinks li {
+    font-size: 10px;
+    padding: 4px;
+  }
+}

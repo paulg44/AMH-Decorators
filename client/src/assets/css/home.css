@@ -40,3 +40,43 @@
   color: var(--dark-color);
   border: 3px solid var(--dark-color);
 }
+
+@media (max-width: 650px) {
+  .homepage h1,
+  .homepage p,
+  .homepage .contact-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .homepage h1 {
+    top: 50px;
+    left: 0;
+    margin: 0 20px;
+    font-size: 3rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .homepage p {
+    background-color: transparent;
+    top: 275px;
+    left: 0;
+    margin: 0 20px;
+    font-size: 1rem;
+  }
+  .homepage .contact-btn {
+    top: 405px;
+    left: 0;
+    margin: 0 20px;
+    background-color: var(--bright-color);
+    color: var(--dark-color);
+  }
+
+  .homepage .contact-btn:active {
+    background-color: var(--bright-color);
+    transform: scale(0.8);
+  }
+}

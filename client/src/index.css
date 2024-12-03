@@ -86,3 +86,25 @@ span {
   margin: 20px;
   width: 700px;
 }
+
+@media (max-width: 650px) {
+  * {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  body {
+    /* height: 100vh; */
+    background-position: right -200px top 20px;
+  }
+
+  .page-header h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .card {
+    font-size: 12px;
+    margin-bottom: 25px;
+  }
+}

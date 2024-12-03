@@ -1,80 +1,10 @@
 /* Smartphones */
 @media (max-width: 650px) {
   /* Utilites */
-  * {
-    text-align: center;
-    max-width: 100%;
-  }
-
-  .page-header h2 {
-    font-size: 2rem;
-    text-align: center;
-  }
-
-  .card {
-    font-size: 12px;
-    margin-bottom: 25px;
-  }
 
   /* Navbar */
-  #nav-bar {
-    display: block;
-    top: 0px;
-    padding: 20px 0px;
-    z-index: 10;
-  }
-
-  .nav-bar-links ul {
-    justify-content: center;
-  }
-
-  .nav-bar-links li {
-    font-size: 10px;
-    padding: 4px;
-  }
 
   /* Homepage */
-  .homepage {
-    background-position: right -200px top 20px;
-  }
-
-  .homepage-content h1,
-  .homepage-content p,
-  .homepage-content .contact-btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .homepage-content h1 {
-    top: 50px;
-    left: 0;
-    margin: 0 20px;
-    font-size: 3rem;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .homepage-content p {
-    background-color: transparent;
-    top: 275px;
-    left: 0;
-    margin: 0 20px;
-    font-size: 1rem;
-  }
-  .homepage-content .contact-btn {
-    top: 405px;
-    left: 0;
-    margin: 0 20px;
-    background-color: var(--bright-color);
-    color: var(--dark-color);
-  }
-
-  .homepage-content .contact-btn:active {
-    background-color: var(--bright-color);
-    transform: scale(0.8);
-  }
 
   /* About & Services*/
   .about-cards,

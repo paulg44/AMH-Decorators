@@ -1,91 +1,97 @@
 [
   {
     "id": 1,
-    "mainImage": "/images/paint1.jpg",
+    "mainImage": "/workImages/paint1.jpg",
+    "imageAlt": "Image 1",
     "title": "Main One",
     "shortDescription": "This is project 1",
-    "galleryImages": [
-      "/images/paint7.jpg",
-      "/images/paint8.jpg",
-      "/images/paint9.jpg",
-      "/images/paint10.jpg",
-      "/images/paint11.jpg",
-      "/images/paint12.jpg"
+    "galleryworkImages": [
+      "/workImages/paint7.jpg",
+      "/workImages/paint8.jpg",
+      "/workImages/paint9.jpg",
+      "/workImages/paint10.jpg",
+      "/workImages/paint11.jpg",
+      "/workImages/paint12.jpg"
     ],
     "longDescription": "This will be a longer description of each project for the pop up gallery"
   },
   {
     "id": 2,
-    "mainImage": "/images/paint2.jpg",
+    "mainImage": "/workImages/paint2.jpg",
+    "imageAlt": "Image 1",
     "title": "Main One",
     "shortDescription": "This is project 2",
-    "galleryImages": [
-      "/images/paint7.jpg",
-      "/images/paint8.jpg",
-      "/images/paint9.jpg",
-      "/images/paint10.jpg",
-      "/images/paint11.jpg",
-      "/images/paint12.jpg"
+    "galleryworkImages": [
+      "/workImages/paint7.jpg",
+      "/workImages/paint8.jpg",
+      "/workImages/paint9.jpg",
+      "/workImages/paint10.jpg",
+      "/workImages/paint11.jpg",
+      "/workImages/paint12.jpg"
     ],
     "longDescription": "This will be a longer description of each project for the pop up gallery"
   },
   {
     "id": 3,
-    "mainImage": "/images/paint3.jpg",
+    "mainImage": "/workImages/paint3.jpg",
+    "imageAlt": "Image 1",
     "title": "Main One",
     "shortDescription": "This is project 3",
-    "galleryImages": [
-      "/images/paint7.jpg",
-      "/images/paint8.jpg",
-      "/images/paint9.jpg",
-      "/images/paint10.jpg",
-      "/images/paint11.jpg",
-      "/images/paint12.jpg"
+    "galleryworkImages": [
+      "/workImages/paint7.jpg",
+      "/workImages/paint8.jpg",
+      "/workImages/paint9.jpg",
+      "/workImages/paint10.jpg",
+      "/workImages/paint11.jpg",
+      "/workImages/paint12.jpg"
     ],
     "longDescription": "This will be a longer description of each project for the pop up gallery"
   },
   {
     "id": 4,
-    "mainImage": "/images/paint1.jpg",
+    "mainImage": "/workImages/paint4.jpg",
+    "imageAlt": "Image 1",
     "title": "Main One",
     "shortDescription": "This is project 4",
-    "galleryImages": [
-      "/images/paint7.jpg",
-      "/images/paint8.jpg",
-      "/images/paint9.jpg",
-      "/images/paint10.jpg",
-      "/images/paint11.jpg",
-      "/images/paint12.jpg"
+    "galleryworkImages": [
+      "/workImages/paint7.jpg",
+      "/workImages/paint8.jpg",
+      "/workImages/paint9.jpg",
+      "/workImages/paint10.jpg",
+      "/workImages/paint11.jpg",
+      "/workImages/paint12.jpg"
     ],
     "longDescription": "This will be a longer description of each project for the pop up gallery"
   },
   {
     "id": 5,
-    "mainImage": "/images/paint5.jpg",
+    "mainImage": "/workImages/paint5.jpg",
+    "imageAlt": "Image 1",
     "title": "Main One",
     "shortDescription": "This is project 5",
-    "galleryImages": [
-      "/images/paint7.jpg",
-      "/images/paint8.jpg",
-      "/images/paint9.jpg",
-      "/images/paint10.jpg",
-      "/images/paint11.jpg",
-      "/images/paint12.jpg"
+    "galleryworkImages": [
+      "/workImages/paint7.jpg",
+      "/workImages/paint8.jpg",
+      "/workImages/paint9.jpg",
+      "/workImages/paint10.jpg",
+      "/workImages/paint11.jpg",
+      "/workImages/paint12.jpg"
     ],
     "longDescription": "This will be a longer description of each project for the pop up gallery"
   },
   {
     "id": 6,
-    "mainImage": "/images/paint6.jpg",
+    "mainImage": "/workImages/paint6.jpg",
+    "imageAlt": "Image 1",
     "title": "Main One",
     "shortDescription": "This is project 6",
-    "galleryImages": [
-      "/images/paint7.jpg",
-      "/images/paint8.jpg",
-      "/images/paint9.jpg",
-      "/images/paint10.jpg",
-      "/images/paint11.jpg",
-      "/images/paint12.jpg"
+    "galleryworkImages": [
+      "/workImages/paint7.jpg",
+      "/workImages/paint8.jpg",
+      "/workImages/paint9.jpg",
+      "/workImages/paint10.jpg",
+      "/workImages/paint11.jpg",
+      "/workImages/paint12.jpg"
     ],
     "longDescription": "This will be a longer description of each project for the pop up gallery"
   }

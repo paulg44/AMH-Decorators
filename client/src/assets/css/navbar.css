@@ -5,6 +5,7 @@
   height: 50px;
   top: 0;
   background: var(--dark-color);
+  z-index: 1;
 }
 
 .navbarLinks ul {

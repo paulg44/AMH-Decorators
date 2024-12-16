@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "mainImage": "/images/paint1.jpg",
+    "title": "Main One",
+    "shortDescription": "This is project 1",
+    "galleryImages": [
+      "/images/paint7.jpg",
+      "/images/paint8.jpg",
+      "/images/paint9.jpg",
+      "/images/paint10.jpg",
+      "/images/paint11.jpg",
+      "/images/paint12.jpg"
+    ],
+    "longDescription": "This will be a longer description of each project for the pop up gallery"
+  },
+  {
+    "id": 2,
+    "mainImage": "/images/paint2.jpg",
+    "title": "Main One",
+    "shortDescription": "This is project 2",
+    "galleryImages": [
+      "/images/paint7.jpg",
+      "/images/paint8.jpg",
+      "/images/paint9.jpg",
+      "/images/paint10.jpg",
+      "/images/paint11.jpg",
+      "/images/paint12.jpg"
+    ],
+    "longDescription": "This will be a longer description of each project for the pop up gallery"
+  },
+  {
+    "id": 3,
+    "mainImage": "/images/paint3.jpg",
+    "title": "Main One",
+    "shortDescription": "This is project 3",
+    "galleryImages": [
+      "/images/paint7.jpg",
+      "/images/paint8.jpg",
+      "/images/paint9.jpg",
+      "/images/paint10.jpg",
+      "/images/paint11.jpg",
+      "/images/paint12.jpg"
+    ],
+    "longDescription": "This will be a longer description of each project for the pop up gallery"
+  },
+  {
+    "id": 4,
+    "mainImage": "/images/paint1.jpg",
+    "title": "Main One",
+    "shortDescription": "This is project 4",
+    "galleryImages": [
+      "/images/paint7.jpg",
+      "/images/paint8.jpg",
+      "/images/paint9.jpg",
+      "/images/paint10.jpg",
+      "/images/paint11.jpg",
+      "/images/paint12.jpg"
+    ],
+    "longDescription": "This will be a longer description of each project for the pop up gallery"
+  },
+  {
+    "id": 5,
+    "mainImage": "/images/paint5.jpg",
+    "title": "Main One",
+    "shortDescription": "This is project 5",
+    "galleryImages": [
+      "/images/paint7.jpg",
+      "/images/paint8.jpg",
+      "/images/paint9.jpg",
+      "/images/paint10.jpg",
+      "/images/paint11.jpg",
+      "/images/paint12.jpg"
+    ],
+    "longDescription": "This will be a longer description of each project for the pop up gallery"
+  },
+  {
+    "id": 6,
+    "mainImage": "/images/paint6.jpg",
+    "title": "Main One",
+    "shortDescription": "This is project 6",
+    "galleryImages": [
+      "/images/paint7.jpg",
+      "/images/paint8.jpg",
+      "/images/paint9.jpg",
+      "/images/paint10.jpg",
+      "/images/paint11.jpg",
+      "/images/paint12.jpg"
+    ],
+    "longDescription": "This will be a longer description of each project for the pop up gallery"
+  }
+]

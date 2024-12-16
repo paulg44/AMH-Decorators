@@ -9,10 +9,11 @@
 
 .navbarLinks ul {
   display: flex;
+  margin-right: 20px;
 }
 
 .navbarLinks a {
-  padding: 0.75rem 1.5rem;
+  padding: 10px 30px;
   letter-spacing: 0.5px;
 }
 

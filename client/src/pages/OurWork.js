@@ -17,9 +17,15 @@ function OurWork() {
               alt={project.imageAlt}
               loading="lazy"
             />
-            <div className="galleryCardInfo">
-              <h3>{project.title}</h3>
+            <div
+              className="metadata"
+              style={{ backgroundColor: `${project.bgColor}` }}
+            >
+              <h3>
+                Project <span>{project.title}</span>
+              </h3>
               <p>{project.shortDescription}</p>
+              <button>{project.link}</button>
             </div>
           </div>
         ))}

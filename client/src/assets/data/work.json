@@ -3,8 +3,9 @@
     "id": 1,
     "mainImage": "/workImages/paint1.jpg",
     "imageAlt": "Image 1",
-    "title": "Main One",
+    "title": "One",
     "shortDescription": "This is project 1",
+    "link": "Show More",
     "galleryworkImages": [
       "/workImages/paint7.jpg",
       "/workImages/paint8.jpg",
@@ -13,14 +14,16 @@
       "/workImages/paint11.jpg",
       "/workImages/paint12.jpg"
     ],
-    "longDescription": "This will be a longer description of each project for the pop up gallery"
+    "longDescription": "This will be a longer description of each project for the pop up gallery",
+    "bgColor": "#fd8a8a"
   },
   {
     "id": 2,
     "mainImage": "/workImages/paint2.jpg",
     "imageAlt": "Image 1",
-    "title": "Main One",
+    "title": "Two",
     "shortDescription": "This is project 2",
+    "link": "Show More",
     "galleryworkImages": [
       "/workImages/paint7.jpg",
       "/workImages/paint8.jpg",
@@ -29,14 +32,16 @@
       "/workImages/paint11.jpg",
       "/workImages/paint12.jpg"
     ],
-    "longDescription": "This will be a longer description of each project for the pop up gallery"
+    "longDescription": "This will be a longer description of each project for the pop up gallery",
+    "bgColor": "#a8d1d1"
   },
   {
     "id": 3,
     "mainImage": "/workImages/paint3.jpg",
     "imageAlt": "Image 1",
-    "title": "Main One",
+    "title": "Three",
     "shortDescription": "This is project 3",
+    "link": "Show More",
     "galleryworkImages": [
       "/workImages/paint7.jpg",
       "/workImages/paint8.jpg",
@@ -45,14 +50,16 @@
       "/workImages/paint11.jpg",
       "/workImages/paint12.jpg"
     ],
-    "longDescription": "This will be a longer description of each project for the pop up gallery"
+    "longDescription": "This will be a longer description of each project for the pop up gallery",
+    "bgColor": "#ffcbcb"
   },
   {
     "id": 4,
     "mainImage": "/workImages/paint4.jpg",
     "imageAlt": "Image 1",
-    "title": "Main One",
+    "title": "Four",
     "shortDescription": "This is project 4",
+    "link": "Show More",
     "galleryworkImages": [
       "/workImages/paint7.jpg",
       "/workImages/paint8.jpg",
@@ -61,14 +68,16 @@
       "/workImages/paint11.jpg",
       "/workImages/paint12.jpg"
     ],
-    "longDescription": "This will be a longer description of each project for the pop up gallery"
+    "longDescription": "This will be a longer description of each project for the pop up gallery",
+    "bgColor": "#dfebeb"
   },
   {
     "id": 5,
     "mainImage": "/workImages/paint5.jpg",
     "imageAlt": "Image 1",
-    "title": "Main One",
+    "title": "Five",
     "shortDescription": "This is project 5",
+    "link": "Show More",
     "galleryworkImages": [
       "/workImages/paint7.jpg",
       "/workImages/paint8.jpg",
@@ -77,14 +86,16 @@
       "/workImages/paint11.jpg",
       "/workImages/paint12.jpg"
     ],
-    "longDescription": "This will be a longer description of each project for the pop up gallery"
+    "longDescription": "This will be a longer description of each project for the pop up gallery",
+    "bgColor": "#9fa1d4"
   },
   {
     "id": 6,
     "mainImage": "/workImages/paint6.jpg",
     "imageAlt": "Image 1",
-    "title": "Main One",
+    "title": "Six",
     "shortDescription": "This is project 6",
+    "link": "Show More",
     "galleryworkImages": [
       "/workImages/paint7.jpg",
       "/workImages/paint8.jpg",
@@ -93,6 +104,7 @@
       "/workImages/paint11.jpg",
       "/workImages/paint12.jpg"
     ],
-    "longDescription": "This will be a longer description of each project for the pop up gallery"
+    "longDescription": "This will be a longer description of each project for the pop up gallery",
+    "bgColor": "#c1bbdd"
   }
 ]

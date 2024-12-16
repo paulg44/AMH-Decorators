@@ -1,4 +1,4 @@
-import "../../assets/css/contact.css";
+import "../assets/css/contact.css";
 import { Link } from "react-router-dom";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 

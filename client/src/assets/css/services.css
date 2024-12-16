@@ -46,31 +46,16 @@
   position: relative;
 }
 
-.serv-icon::before {
-  content: "\f058";
-  font-weight: 900;
-  font-family: "Font Awesome 5 Free";
-  font-size: 4rem;
-  position: absolute;
-  bottom: -45px;
-  left: 489px;
-  color: var(--bright-color);
-}
-
 .serv-icon h4 {
   font-size: 1.6rem;
   width: 70%;
   padding-bottom: 5px;
-  color: var(--bright-color);
   border-bottom: 2px solid var(--light-color);
 }
 
-.serv-icon i {
-  padding: 20px 0;
-  color: var(--dull-color);
-  transition: color 1s ease-in;
-}
-
-.serv-icon i:hover {
+.servicesIcon {
+  padding: 10px 0 0;
   color: var(--bright-color);
+  font-size: 30px;
+  /* position: absolute; */
 }

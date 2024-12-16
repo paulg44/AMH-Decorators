@@ -1,4 +1,5 @@
-import "../../assets/css/services.css";
+import "../assets/css/services.css";
+import { FaCalculator, FaPenSquare } from "react-icons/fa";
 
 function Services() {
   return (
@@ -43,7 +44,9 @@ function Services() {
       <div className="service-icons container">
         <div className="serv-icon">
           <h4>Free Estimations</h4>
-          <i className="fa-solid fa-calculator fa-5x"></i>
+          <div className="servicesIcon">
+            <FaCalculator />
+          </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
             facere!
@@ -51,7 +54,9 @@ function Services() {
         </div>
         <div className="serv-icon">
           <h4>Fully Insured</h4>
-          <i className="fa-solid fa-pen-to-square fa-5x"></i>
+          <div className="servicesIcon">
+            <FaPenSquare />
+          </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
             facere!

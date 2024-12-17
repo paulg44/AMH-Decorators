@@ -1,4 +1,5 @@
 import "../assets/css/ourWork.css";
+import { Popup } from "reactjs-popup";
 import data from "../assets/data/work.json";
 
 function OurWork() {
@@ -10,7 +11,7 @@ function OurWork() {
         </h2>
       </div>
       <div className="galleryCardContainer">
-        {data.map((project, index) => (
+        {data.map((project) => (
           <div className="galleryCard" key={project.id}>
             <img
               src={project.mainImage}
@@ -25,7 +26,22 @@ function OurWork() {
                 Project <span>{project.title}</span>
               </h3>
               <p>{project.shortDescription}</p>
-              <button className="metadataBtn">{project.link}</button>
+              <Popup
+                trigger={
+                  <button className="metadataBtn">{project.link}</button>
+                }
+                modal
+                nested
+              >
+                <div className="popUpGallery">
+                  <p className="popUpDescription">{project.longDescription}</p>
+                  <div className="popUpImageContainer">
+                    {project.galleryworkImages.map((img) => (
+                      <img src={img} alt="test" />
+                    ))}
+                  </div>
+                </div>
+              </Popup>
             </div>
           </div>
         ))}

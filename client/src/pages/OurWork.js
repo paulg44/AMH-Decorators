@@ -25,7 +25,7 @@ function OurWork() {
                 Project <span>{project.title}</span>
               </h3>
               <p>{project.shortDescription}</p>
-              <button>{project.link}</button>
+              <button className="metadataBtn">{project.link}</button>
             </div>
           </div>
         ))}

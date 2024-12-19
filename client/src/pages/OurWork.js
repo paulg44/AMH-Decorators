@@ -1,8 +1,12 @@
 import "../assets/css/ourWork.css";
 import { Popup } from "reactjs-popup";
 import data from "../assets/data/work.json";
+import { useState } from "react";
 
 function OurWork() {
+  const [open, setOpen] = useState(false);
+  const closePopUp = () => setOpen(false);
+
   return (
     <div className="ourWorkPage">
       <div className="page-header">
@@ -26,14 +30,17 @@ function OurWork() {
                 Project <span>{project.title}</span>
               </h3>
               <p>{project.shortDescription}</p>
-              <Popup
-                trigger={
-                  <button className="metadataBtn">{project.link}</button>
-                }
-                modal
-                nested
+              <button
+                className="metadataBtn"
+                onClick={() => setOpen((o) => !o)}
               >
+                {project.link}
+              </button>
+              <Popup open={open} closeOnDocumentClick onClose={closePopUp}>
                 <div className="popUpGallery">
+                  <button className="close" onClick={closePopUp}>
+                    &times;
+                  </button>
                   <p className="popUpDescription">{project.longDescription}</p>
                   <div className="popUpImageContainer">
                     {project.galleryworkImages.map((img) => (

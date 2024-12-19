@@ -73,16 +73,31 @@
 
 /* Modal for gallery: for some reason I cannot get this to work in SCSS, has to be in CSS */
 .popUpGallery {
-  width: 75%;
+  position: relative;
   font-size: 28px;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin: 0 200px;
   background-color: var(--dark-color);
   border: 3px solid var(--dull-color);
   border-radius: 10px;
+}
+
+.popUpGallery > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background-color: white;
+  border-radius: 18px;
+  border: 1px solid var(--dull-color);
 }
 
 .popUpImageContainer > img {

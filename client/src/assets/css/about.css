@@ -1,29 +1,33 @@
-.about-cards {
+.aboutCards {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
-}
 
-.about-cards .card:nth-child(2) {
-  border: 4px solid var(--dull-color);
-}
+  .card {
+    h3 {
+      font-size: 1.75rem;
+      margin-bottom: 15px;
+      letter-spacing: 0.3px;
+      border-bottom: 2px solid var(--dull-color);
+      padding: 10px;
+    }
+    &:nth-child(2) {
+      border: 4px solid var(--dull-color);
+    }
+  }
 
-.about-cards .card h3 {
-  font-size: 1.75rem;
-  margin-bottom: 15px;
-  letter-spacing: 0.3px;
-  border-bottom: 2px solid var(--dull-color);
-  padding: 10px;
-}
-
-.about-cards .vision h3 {
-  border-bottom: 2px solid var(--bright-color);
+  .vision {
+    h3 {
+      border-bottom: 2px solid var(--bright-color);
+    }
+  }
 }
 
 @media (max-width: 650px) {
   .about {
-    margin: 100px 20px 0;
+    margin: 10px 20px 0;
+    background-color: var(--dark-color);
   }
 }

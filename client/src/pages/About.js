@@ -3,15 +3,15 @@ import "../assets/css/about.css";
 function About() {
   return (
     <div className="about">
-      <div className="about-content page-header">
+      <div className="aboutContent pageHeader">
         <h2>
           A<span>b</span>out
         </h2>
       </div>
 
-      <div className="about-info">
-        <div className="about-cards">
-          <div className="beginings card">
+      <div className="aboutInfo">
+        <div className="aboutCards">
+          <div className="card">
             <h3>Origins</h3>
             <p>
               Lorem ipsum dolor sit amet testing consectetur adipisicing elit.
@@ -31,7 +31,7 @@ function About() {
               recusandae sunt qui! Nam, excepturi quaerat.
             </p>
           </div>
-          <div className="values card">
+          <div className="card">
             <h3>Values</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius

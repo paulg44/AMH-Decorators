@@ -23,9 +23,6 @@ body {
   line-height: 1.6;
   background-color: var(--dark-color);
   color: var(--light-color);
-  /* overflow: hidden; */
-  background: url("./assets//images/paintbrush4.jpg") no-repeat center
-    center/cover;
 }
 
 code {
@@ -71,12 +68,14 @@ span {
   }
 }
 
-.page-header h2 {
-  font-size: 4rem;
-  padding: 20px 40px;
-  border: 5px solid var(--light-color);
-  border-radius: 5px;
-  margin: 10px 40px 0px;
+.pageHeader {
+  h2 {
+    font-size: 4rem;
+    padding: 20px 40px;
+    border: 5px solid var(--light-color);
+    border-radius: 5px;
+    margin: 10px 40px 0px;
+  }
 }
 
 .card {
@@ -98,9 +97,11 @@ span {
     background-position: right -200px top 20px;
   }
 
-  .page-header h2 {
-    font-size: 2rem;
-    text-align: center;
+  .pageHeader {
+    h2 {
+      font-size: 2rem;
+      text-align: center;
+    }
   }
 
   .card {

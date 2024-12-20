@@ -8,8 +8,8 @@ function Home() {
         AM<span>H</span> Decorating
       </h1>
       <p>Excellence meets perfection.</p>
-      <Link to={"/contact"} className="btn contact-btn">
-        Contact
+      <Link to={"/contact"} className="btn contactBtn">
+        <span>Contact</span>
       </Link>
     </div>
   );

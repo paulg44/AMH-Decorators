@@ -2,45 +2,45 @@
   text-align: center;
   margin-top: 100px;
   width: 100%;
-}
 
-.homepage h1 {
-  width: 60%;
-  font-size: 4rem;
-  margin-left: 75px;
-  padding: 22px 40px;
-  background-color: transparent;
-  border: 5px solid var(--light-color);
-  border-radius: 5px;
-}
+  h1 {
+    width: 60%;
+    font-size: 4rem;
+    margin-left: 75px;
+    padding: 22px 40px;
+    background-color: transparent;
+    border: 5px solid var(--light-color);
+    border-radius: 5px;
+  }
 
-.homepage p {
-  width: 40%;
-  background-color: transparent;
-  margin-top: 10px;
-  margin-left: 275px;
-  font-size: 1.25rem;
-  padding: 40px 20px;
-  border: 4px solid var(--light-color);
-  border-radius: 5px;
-}
+  p {
+    width: 40%;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 275px;
+    font-size: 1.25rem;
+    padding: 40px 20px;
+    border: 4px solid var(--light-color);
+    border-radius: 5px;
+  }
 
-.homepage .contact-btn {
-  background-color: var(--dark-color);
-  border: 3px solid var(--light-color);
-  color: var(--light-color);
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-top: 260px;
-  margin-left: 20%;
-  padding: 10px 30px;
-  transition: 1s all;
-}
+  .contact-btn {
+    background-color: var(--dark-color);
+    border: 3px solid var(--light-color);
+    color: var(--light-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 260px;
+    margin-left: 20%;
+    padding: 10px 30px;
+    transition: 1s all;
 
-.homepage .contact-btn:hover {
-  background-color: var(--bright-color);
-  color: var(--dark-color);
-  border: 3px solid var(--dark-color);
+    &:hover {
+      background-color: var(--bright-color);
+      color: var(--dark-color);
+      border: 3px solid var(--dark-color);
+    }
+  }
 }
 
 @media (max-width: 650px) {
@@ -50,32 +50,31 @@
     flex-direction: column;
     align-items: center;
     margin-top: 0;
-    /* text-align: left; */
-  }
 
-  .homepage h1 {
-    width: 90%;
-    margin: 10px 20px;
-    font-size: 2.2rem;
-  }
+    h1 {
+      width: 90%;
+      margin: 10px 20px;
+      font-size: 2.2rem;
+    }
 
-  .homepage p {
-    width: 60%;
-    background-color: transparent;
-    left: 0;
-    padding: 10px 20px;
-    margin: 10px 20px;
-    font-size: 1rem;
-  }
+    p {
+      width: 60%;
+      background-color: transparent;
+      left: 0;
+      padding: 10px 20px;
+      margin: 10px 20px;
+      font-size: 1rem;
+    }
 
-  .homepage .contact-btn {
-    margin: 100px 0;
-    background-color: var(--bright-color);
-    color: var(--dark-color);
-  }
+    .contact-btn {
+      margin: 100px 0;
+      background-color: var(--bright-color);
+      color: var(--dark-color);
+    }
 
-  .homepage .contact-btn:active {
-    background-color: var(--bright-color);
-    transform: scale(0.8);
+    &:active {
+      background-color: var(--bright-color);
+      transform: scale(0.8);
+    }
   }
 }

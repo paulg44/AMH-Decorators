@@ -39,7 +39,7 @@
     margin-left: 20%;
     height: 50px;
     width: 130px;
-    line-height: 40px;
+    line-height: 42px;
     overflow: hidden;
     transition: all 0.3s ease;
 
@@ -148,6 +148,10 @@
       margin: 100px 0;
       background-color: var(--bright-color);
       color: var(--dark-color);
+
+      span {
+        color: var(--dark-color);
+      }
     }
 
     &:active {

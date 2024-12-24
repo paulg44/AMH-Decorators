@@ -4,7 +4,7 @@ import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 function Contact() {
   return (
-    <div class="contact-content pageHeader container contact">
+    <div class="pageHeader container contact">
       <h2>
         C<span>o</span>ntact
       </h2>

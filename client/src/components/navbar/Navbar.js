@@ -24,11 +24,21 @@ function Navbar() {
           {navMenuOpen && (
             <FaTimesCircle className="navCloseBtn" onClick={closeNavMenu} />
           )}
-          <Link to={"/"}>Home</Link>
-          <Link to={"/about"}>About</Link>
-          <Link to={"/services"}>Services</Link>
-          <Link to={"/ourWork"}>Our Work</Link>
-          <Link to={"/contact"}>Contact</Link>
+          <Link to={"/"} onClick={closeNavMenu}>
+            Home
+          </Link>
+          <Link to={"/about"} onClick={closeNavMenu}>
+            About
+          </Link>
+          <Link to={"/services"} onClick={closeNavMenu}>
+            Services
+          </Link>
+          <Link to={"/ourWork"} onClick={closeNavMenu}>
+            Our Work
+          </Link>
+          <Link to={"/contact"} onClick={closeNavMenu}>
+            Contact
+          </Link>
         </ul>
       </div>
     </nav>

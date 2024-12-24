@@ -4,14 +4,14 @@ import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 function Contact() {
   return (
-    <div class="contact-content page-header container contact">
+    <div class="contact-content pageHeader container contact">
       <h2>
         C<span>o</span>ntact
       </h2>
 
-      <div id="contact-links" class="contact-links">
+      <div id="contact-links" class="contactLinks">
         <div class="container email card">
-          <FaEnvelope className="fa-envelope" />
+          <FaEnvelope className="faEnvelope" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
             nesciunt.
@@ -19,7 +19,7 @@ function Contact() {
           <Link to={"/"}>AMH Decorating</Link>
         </div>
         <div class="container phone card">
-          <FaPhone className="fa-phone" />
+          <FaPhone className="faPhone" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
             nesciunt.

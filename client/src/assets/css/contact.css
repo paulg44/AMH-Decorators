@@ -1,40 +1,48 @@
-.contact-links {
+.contactLinks {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   margin: 30px 70px 20px;
   position: relative;
-}
 
-.contact-links .card {
-  border: 4px solid var(--dull-color);
-}
+  .card {
+    border: 4px solid var(--dull-color);
 
-.contact-links p {
-  padding: 40px 10px;
-  font-size: 1.1rem;
-}
+    p {
+      padding: 40px 10px;
+      font-size: 1.1rem;
+    }
 
-.contact-links a {
-  text-transform: uppercase;
-  font-size: 1.3rem;
-  border-bottom: 1px solid var(--bright-color);
-  transition: all 0.6s ease-in;
-}
+    a {
+      text-transform: uppercase;
+      font-size: 1.3rem;
+      border-bottom: 1px solid var(--bright-color);
+      transition: all 0.6s ease-in;
 
-.contact-links a:hover {
-  color: var(--bright-color);
-  border-bottom: 1px solid var(--light-color);
+      &:hover {
+        color: var(--bright-color);
+        border-bottom: 1px solid var(--light-color);
+      }
+    }
+
+    .faEnvelope {
+      animation: shake 2s ease-in 1s 2 forwards;
+      color: var(--bright-color);
+      font-size: 50px;
+      padding-top: 10px;
+    }
+
+    .faPhone {
+      animation: ring 2s ease-in 4s 2 forwards;
+      color: var(--bright-color);
+      font-size: 50px;
+      padding-top: 10px;
+    }
+  }
 }
 
 /* Contact Icon Animations */
-.contact-links .fa-envelope {
-  animation: shake 2s ease-in 1s 2 forwards;
-  color: var(--bright-color);
-  font-size: 50px;
-  padding-top: 10px;
-}
 
 @keyframes shake {
   30% {
@@ -52,13 +60,6 @@
   100% {
     transform: scale(1);
   }
-}
-
-.contact-links .fa-phone {
-  animation: ring 2s ease-in 4s 2 forwards;
-  color: var(--bright-color);
-  font-size: 50px;
-  padding-top: 10px;
 }
 
 @keyframes ring {
@@ -81,24 +82,9 @@
   }
 }
 
-.contact-links .fa-thumbs-up {
-  animation: pulse 2s ease-in 7.5s 2 forwards;
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  25% {
-    transform: scale(1.1);
-  }
-  50% {
-    transform: scale(1);
-  }
-  75% {
-    transform: scale(0.9);
-  }
-  100% {
-    transform: scale(1);
+@media (max-width: 650px) {
+  .contactLinks {
+    flex-direction: column;
+    margin: 30px 20px;
   }
 }

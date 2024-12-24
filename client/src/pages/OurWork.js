@@ -9,7 +9,7 @@ function OurWork() {
 
   return (
     <div className="ourWorkPage">
-      <div className="page-header">
+      <div className="pageHeader">
         <h2>
           Our Wo<span>r</span>k
         </h2>

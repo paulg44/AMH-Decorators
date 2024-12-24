@@ -1,61 +1,66 @@
-.services-content h2 {
-  text-align: end;
+.servicesContent {
+  h2 {
+    text-align: end;
+  }
 }
 
-.services-cards {
+.servicesCards {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
+
+  .card {
+    h3 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      letter-spacing: 0.3px;
+      border-bottom: 2px solid var(--bright-color);
+      padding: 10px;
+    }
+    &:nth-child(odd) {
+      border: 4px solid var(--dull-color);
+    }
+  }
+
+  .decor {
+    h3 {
+      border-bottom: 2px solid var(--dull-color);
+    }
+  }
 }
 
-.services-cards .card:nth-child(odd) {
-  border: 4px solid var(--dull-color);
-}
-
-.services-cards .card h3 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-  letter-spacing: 0.3px;
-  border-bottom: 2px solid var(--bright-color);
-  padding: 10px;
-}
-
-.services-cards .decor h3 {
-  border-bottom: 2px solid var(--dull-color);
-}
-
-.service-icons {
+.serviceIcons {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-}
 
-.service-icons .serv-icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  border: 2px solid var(--light-color);
-  border-radius: 10px;
-  margin: 20px 30px;
-  padding: 40px;
-  position: relative;
-}
+  .servIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid var(--light-color);
+    border-radius: 10px;
+    margin: 20px 30px;
+    padding: 40px;
+    position: relative;
 
-.serv-icon h4 {
-  font-size: 1.6rem;
-  width: 70%;
-  padding-bottom: 5px;
-  border-bottom: 2px solid var(--light-color);
-}
+    h4 {
+      font-size: 1.6rem;
+      width: 70%;
+      padding-bottom: 5px;
+      border-bottom: 2px solid var(--light-color);
+    }
+  }
 
-.servicesIcon {
-  padding: 10px 0 0;
-  color: var(--bright-color);
-  font-size: 30px;
-  /* position: absolute; */
+  .servicesIcon {
+    padding: 10px 0 0;
+    color: var(--bright-color);
+    font-size: 30px;
+    /* position: absolute; */
+  }
 }

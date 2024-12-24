@@ -3,12 +3,12 @@ import { FaCalculator, FaPenSquare } from "react-icons/fa";
 
 function Services() {
   return (
-    <div className="services-content page-header container services">
+    <div className="servicesContent pageHeader container services">
       <h2>
         S<span>e</span>rvices
       </h2>
 
-      <div className="services-cards ser-info container">
+      <div className="servicesCards servicesInfo container">
         <div className="paint card">
           <h3>Painting</h3>
           <p>
@@ -41,8 +41,8 @@ function Services() {
         </div>
       </div>
 
-      <div className="service-icons container">
-        <div className="serv-icon">
+      <div className="serviceIcons container">
+        <div className="servIcon">
           <h4>Free Estimations</h4>
           <div className="servicesIcon">
             <FaCalculator />
@@ -52,7 +52,7 @@ function Services() {
             facere!
           </p>
         </div>
-        <div className="serv-icon">
+        <div className="servIcon">
           <h4>Fully Insured</h4>
           <div className="servicesIcon">
             <FaPenSquare />

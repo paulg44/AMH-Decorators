@@ -12,31 +12,25 @@ function Services() {
         <div className="paint card">
           <h3>Painting</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-            laudantium voluptate voluptatum minima optio quibusdam doloremque
-            eligendi voluptatibus, error quis dolorum et omnis ipsam rem
-            repellendus, ad repudiandae totam est cumque aut nostrum eveniet,
-            recusandae sunt qui! Nam, excepturi quaerat.
+            Transform your space with precision painting services tailored to
+            your preferences. From feature walls to complete interior and
+            exterior projects, we ensure vibrant, lasting results.
           </p>
         </div>
         <div className="decor card">
           <h3>Decoration</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-            laudantium voluptate voluptatum minima optio quibusdam doloremque
-            eligendi voluptatibus, error quis dolorum et omnis ipsam rem
-            repellendus, ad repudiandae totam est cumque aut nostrum eveniet,
-            recusandae sunt qui! Nam, excepturi quaerat.
+            Elevate your home’s aesthetic with expert decorative finishes,
+            including wallpapering, textured designs, and custom accents that
+            reflect your style.
           </p>
         </div>
         <div className="repairs card">
           <h3>Minor Repairs</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-            laudantium voluptate voluptatum minima optio quibusdam doloremque
-            eligendi voluptatibus, error quis dolorum et omnis ipsam rem
-            repellendus, ad repudiandae totam est cumque aut nostrum eveniet,
-            recusandae sunt qui! Nam, excepturi quaerat.
+            Address wear and tear with seamless repair solutions, from patching
+            cracks to restoring surfaces, ensuring a flawless foundation for
+            your decorating projects.
           </p>
         </div>
       </div>
@@ -47,10 +41,7 @@ function Services() {
           <div className="servicesIcon">
             <FaCalculator />
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
-            facere!
-          </p>
+          <p>We offer free, no hassle estimation's for any size job.</p>
         </div>
         <div className="servIcon">
           <h4>Fully Insured</h4>
@@ -58,8 +49,8 @@ function Services() {
             <FaPenSquare />
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
-            facere!
+            AMH Decorator's are fully insured for peace of mind during the
+            entirety of works on your project.
           </p>
         </div>
       </div>

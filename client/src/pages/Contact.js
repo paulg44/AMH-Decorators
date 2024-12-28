@@ -12,18 +12,12 @@ function Contact() {
       <div id="contact-links" class="contactLinks">
         <div class="container email card">
           <FaEnvelope className="faEnvelope" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-            nesciunt.
-          </p>
+          <p>Please email us and we will get back to as soon as possible.</p>
           <Link to={"/"}>AMH Decorating</Link>
         </div>
         <div class="container phone card">
           <FaPhone className="faPhone" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-            nesciunt.
-          </p>
+          <p>Alternatively, give us a call to discuss your next project.</p>
           <Link to={"/"}>07806691333</Link>
         </div>
       </div>

@@ -14,31 +14,24 @@ function About() {
           <div className="card">
             <h3>Origins</h3>
             <p>
-              Lorem ipsum dolor sit amet testing consectetur adipisicing elit.
-              Eius laudantium voluptate voluptatum minima optio quibusdam
-              doloremque eligendi voluptatibus, error quis dolorum et omnis
-              ipsam rem repellendus, ad repudiandae totam est cumque aut nostrum
-              eveniet, recusandae sunt qui! Nam, excepturi quaerat.
+              Founded with a passion for craftsmanship, our company has been
+              serving the local community with dedication and attention to
+              detail for years.
             </p>
           </div>
           <div className="vision card">
             <h3>Vision</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-              laudantium voluptate voluptatum minima optio quibusdam doloremque
-              eligendi voluptatibus, error quis dolorum et omnis ipsam rem
-              repellendus, ad repudiandae totam est cumque aut nostrum eveniet,
-              recusandae sunt qui! Nam, excepturi quaerat.
+              Our goal is to enhance homes and spaces through exceptional design
+              and superior service, creating environments you’ll love.
             </p>
           </div>
           <div className="card">
             <h3>Values</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-              laudantium voluptate voluptatum minima optio quibusdam doloremque
-              eligendi voluptatibus, error quis dolorum et omnis ipsam rem
-              repellendus, ad repudiandae totam est cumque aut nostrum eveniet,
-              recusandae sunt qui! Nam, excepturi quaerat.
+              We prioritize quality, trust, and customer satisfaction, ensuring
+              every project is completed to the highest standards with care and
+              professionalism.
             </p>
           </div>
         </div>

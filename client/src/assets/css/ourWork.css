@@ -7,8 +7,9 @@
     padding-bottom: 30px;
     margin: 30px;
     display: grid;
-    grid-template-columns: 400px 400px;
-    gap: 30px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
     justify-content: center;
     text-align: center;
 
@@ -20,7 +21,34 @@
       overflow: hidden;
 
       img {
+        height: 100%;
         width: 100%;
+        object-fit: cover;
+      }
+
+      &.cardOne {
+        grid-column: 2 / span 2;
+        grid-row: span 1;
+      }
+      &.cardTwo {
+        grid-column: span 1;
+        grid-row: span 1;
+      }
+      &.cardThree {
+        grid-column: span 1;
+        grid-row: span 1;
+      }
+      &.cardFour {
+        grid-column: 2 / span 1;
+        grid-row: span 2;
+      }
+      &.cardFive {
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+      &.cardSix {
+        grid-column: span 1;
+        grid-row: span 2;
       }
 
       .metadata {

@@ -16,7 +16,7 @@ function OurWork() {
       </div>
       <div className="galleryCardContainer">
         {data.map((project) => (
-          <div className="galleryCard" key={project.id}>
+          <div className={`galleryCard card${project.title}`} key={project.id}>
             <img
               src={project.mainImage}
               alt={project.imageAlt}

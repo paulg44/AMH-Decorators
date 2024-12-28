@@ -43,8 +43,8 @@ function OurWork() {
                   </button>
                   <p className="popUpDescription">{project.longDescription}</p>
                   <div className="popUpImageContainer">
-                    {project.galleryworkImages.map((img) => (
-                      <img src={img} alt="test" />
+                    {project.galleryworkImages.map((img, index) => (
+                      <img key={index} src={img} alt="test" />
                     ))}
                   </div>
                 </div>

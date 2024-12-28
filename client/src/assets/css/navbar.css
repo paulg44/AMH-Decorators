@@ -44,8 +44,7 @@
     }
 
     .navbarLinksContainer.open {
-      display: flex;
-      z-index: 2;
+      animation: rotateIn 0.3s ease-in;
 
       .navLinks {
         display: flex;
@@ -76,7 +75,7 @@
     .navMenu {
       position: absolute;
       top: 10px;
-      right: 10px;
+      right: 20px;
       font-size: 24px;
       display: block;
       color: white;
@@ -92,4 +91,26 @@
       cursor: pointer;
     }
   }
+
+  @keyframes rotateIn {
+    0% {
+      transform-origin: right bottom;
+      transform: rotate(-90deg);
+    }
+    100% {
+      transform-origin: right bottom;
+      transform: rotate(0);
+    }
+  }
+
+  /* @keyframes borderSlide {
+    0% {
+      transform: translateX(-400px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  } */
 }

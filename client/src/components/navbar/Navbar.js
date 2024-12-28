@@ -6,37 +6,39 @@ import { FaBars, FaTimesCircle } from "react-icons/fa";
 function Navbar() {
   const [navMenuOpen, setNavMenuOpen] = useState(false);
 
-  const openNavMenu = () => {
-    setNavMenuOpen(!navMenuOpen);
-  };
-
-  const closeNavMenu = () => {
-    setNavMenuOpen(false);
+  const handleToggleNavMenu = () => {
+    setNavMenuOpen((prevState) => !prevState);
   };
 
   return (
     <nav className="navbar">
-      <div className="navMenu" onClick={openNavMenu}>
-        <FaBars />
+      <div
+        className={`navMenu ${navMenuOpen ? "open" : ""}`}
+        onClick={handleToggleNavMenu}
+      >
+        <FaBars className="mobileBars" />
       </div>
       <div className={`navbarLinksContainer ${navMenuOpen ? "open" : ""}`}>
         <ul className="navLinks">
           {navMenuOpen && (
-            <FaTimesCircle className="navCloseBtn" onClick={closeNavMenu} />
+            <FaTimesCircle
+              className="navCloseBtn"
+              onClick={handleToggleNavMenu}
+            />
           )}
-          <Link to={"/"} onClick={closeNavMenu}>
+          <Link to={"/"} onClick={handleToggleNavMenu}>
             Home
           </Link>
-          <Link to={"/about"} onClick={closeNavMenu}>
+          <Link to={"/about"} onClick={handleToggleNavMenu}>
             About
           </Link>
-          <Link to={"/services"} onClick={closeNavMenu}>
+          <Link to={"/services"} onClick={handleToggleNavMenu}>
             Services
           </Link>
-          <Link to={"/ourWork"} onClick={closeNavMenu}>
+          <Link to={"/ourWork"} onClick={handleToggleNavMenu}>
             Our Work
           </Link>
-          <Link to={"/contact"} onClick={closeNavMenu}>
+          <Link to={"/contact"} onClick={handleToggleNavMenu}>
             Contact
           </Link>
         </ul>

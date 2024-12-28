@@ -131,3 +131,35 @@
 .popUpImageContainer > img {
   width: 20%;
 }
+
+@media (max-width: 650px) {
+  .ourWorkPage {
+    .galleryCardContainer {
+      height: 80vh;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(3, auto);
+
+      .galleryCard {
+        &.cardOne {
+          grid-column: span 3;
+        }
+        &.cardTwo {
+          grid-column: span 2;
+        }
+        &.cardThree {
+          grid-column: span 2;
+          grid-row: span 2;
+        }
+        &.cardFour {
+          grid-column: span 3;
+        }
+        &.cardFive {
+          grid-column: span 3;
+        }
+        &.cardSix {
+          grid-column: span 2;
+        }
+      }
+    }
+  }
+}

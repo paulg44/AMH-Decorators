@@ -1,5 +1,5 @@
 import "../../assets/css/footer.css";
-import { FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -10,15 +10,15 @@ function Footer() {
           <li>
             <FaFacebook className="icon" />
             <a
-              href="https"
+              href="https://www.facebook.com/amhdecor/"
               target="blank"
               rel="noreferrer"
-              aria-label="facebook link"
+              aria-label="facebook link to decorator's page"
             >
               Facebook
             </a>
           </li>
-          <li>
+          {/* <li>
             <FaInstagram className="icon" />
             <a
               href="https"
@@ -39,7 +39,7 @@ function Footer() {
             >
               Twitter
             </a>
-          </li>
+          </li> */}
         </ul>
         <p>Website designed & created by PG Design</p>
       </div>

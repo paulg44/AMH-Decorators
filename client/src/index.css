@@ -47,7 +47,7 @@ img {
 
 .btn {
   cursor: pointer;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 span {

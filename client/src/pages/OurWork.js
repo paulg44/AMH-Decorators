@@ -1,11 +1,12 @@
 import "../assets/css/ourWork.css";
-import { Popup } from "reactjs-popup";
 import data from "../assets/data/work.json";
 import { useState } from "react";
 
 function OurWork() {
   const [open, setOpen] = useState(false);
+
   const closePopUp = () => setOpen(false);
+  const togglePopUp = () => setOpen(!open);
 
   return (
     <div className="ourWorkPage">
@@ -31,26 +32,25 @@ function OurWork() {
             >
               <h3>Project {project.title}</h3>
               <p>{project.shortDescription}</p>
-              <button
-                className="metadataBtn"
-                // style={{ ba }}
-                onClick={() => setOpen((o) => !o)}
-              >
+              <button className="metadataBtn" onClick={togglePopUp}>
                 {project.link}
               </button>
-              <Popup open={open} closeOnDocumentClick onClose={closePopUp}>
-                <div className="popUpGallery">
-                  <button className="close" onClick={closePopUp}>
-                    &times;
-                  </button>
-                  <p className="popUpDescription">{project.longDescription}</p>
-                  <div className="popUpImageContainer">
-                    {project.galleryworkImages.map((img, index) => (
-                      <img key={index} src={img} alt="test" />
-                    ))}
-                  </div>
+              <div className={`popUpGallery ${open ? "open" : ""}`}>
+                <button className="close" onClick={closePopUp}>
+                  &times;
+                </button>
+                <p className="popUpDescription">{project.longDescription}</p>
+                <div className="popUpImageContainer">
+                  {project.galleryworkImages.map((galleryImage, index) => (
+                    <div
+                      key={index}
+                      className={`popUpCard popUp${galleryImage.class}`}
+                    >
+                      <img src={galleryImage.img} alt={galleryImage.alt} />
+                    </div>
+                  ))}
                 </div>
-              </Popup>
+              </div>
             </div>
           </div>
         ))}

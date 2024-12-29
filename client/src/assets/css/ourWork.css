@@ -97,39 +97,91 @@
       }
     }
   }
-}
 
-/* Modal for gallery: for some reason I cannot get this to work in SCSS, has to be in CSS */
-.popUpGallery {
-  position: relative;
-  font-size: 28px;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin: 0 200px;
-  background-color: var(--dark-color);
-  border: 3px solid var(--dull-color);
-  border-radius: 10px;
-}
+  .popUpGallery {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 700px;
+    font-size: 26px;
+    padding: 0 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-color);
+    border: 3px solid var(--dull-color);
+    border-radius: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 
-.popUpGallery > .close {
-  cursor: pointer;
-  position: absolute;
-  display: block;
-  padding: 2px 5px;
-  line-height: 20px;
-  right: -10px;
-  top: -10px;
-  font-size: 24px;
-  background-color: white;
-  border-radius: 18px;
-  border: 1px solid var(--dull-color);
-}
+    &.open {
+      opacity: 1;
+      visibility: visible;
+    }
 
-.popUpImageContainer > img {
-  width: 20%;
+    .popUpDescription {
+      color: white;
+    }
+
+    .popUpImageContainer {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(3, auto);
+      gap: 10px;
+      height: 350px;
+
+      .popUpCard {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+
+        &.popUpOne {
+          grid-column: span 2;
+          grid-row: span 3;
+        }
+        &.popUpTwo {
+          grid-column: span 3;
+          grid-row: span 1;
+        }
+        &.popUpThree {
+          grid-column: span 3;
+          grid-row: span 1;
+        }
+        &.popUpFour {
+          grid-column: span 3;
+          grid-row: span 1;
+        }
+      }
+    }
+
+    .close {
+      cursor: pointer;
+      position: absolute;
+      display: block;
+      padding: 2px 5px;
+      line-height: 20px;
+      right: -10px;
+      top: -10px;
+      font-size: 24px;
+      background-color: white;
+      border-radius: 18px;
+      border: 1px solid var(--dull-color);
+    }
+  }
 }
 
 @media (max-width: 650px) {

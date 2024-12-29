@@ -7,10 +7,26 @@
     "shortDescription": "This is project 1",
     "link": "Show More",
     "galleryworkImages": [
-      "/workImages/paint7.jpg",
-      "/workImages/paint8.jpg",
-      "/workImages/paint9.jpg",
-      "/workImages/paint10.jpg"
+      {
+        "img": "/workImages/paint7.jpg",
+        "alt": "work Image 1",
+        "class": "One"
+      },
+      {
+        "img": "/workImages/paint8.jpg",
+        "alt": "work Image 8",
+        "class": "Two"
+      },
+      {
+        "img": "/workImages/paint9.jpg",
+        "alt": "work Image 9",
+        "class": "Three"
+      },
+      {
+        "img": "/workImages/paint10.jpg",
+        "alt": "work Image 10",
+        "class": "Four"
+      }
     ],
     "longDescription": "This will be a longer description of each project for the pop up gallery",
     "bgColor": "#4382BB",
@@ -24,10 +40,26 @@
     "shortDescription": "This is project 2",
     "link": "Show More",
     "galleryworkImages": [
-      "/workImages/paint7.jpg",
-      "/workImages/paint8.jpg",
-      "/workImages/paint9.jpg",
-      "/workImages/paint10.jpg"
+      {
+        "img": "/workImages/paint7.jpg",
+        "alt": "work Image 1",
+        "class": "One"
+      },
+      {
+        "img": "/workImages/paint8.jpg",
+        "alt": "work Image 8",
+        "class": "Two"
+      },
+      {
+        "img": "/workImages/paint9.jpg",
+        "alt": "work Image 9",
+        "class": "Three"
+      },
+      {
+        "img": "/workImages/paint10.jpg",
+        "alt": "work Image 10",
+        "class": "Four"
+      }
     ],
     "longDescription": "This will be a longer description of each project for the pop up gallery",
     "bgColor": "#E4CEE0",
@@ -41,10 +73,26 @@
     "shortDescription": "This is project 3",
     "link": "Show More",
     "galleryworkImages": [
-      "/workImages/paint7.jpg",
-      "/workImages/paint8.jpg",
-      "/workImages/paint9.jpg",
-      "/workImages/paint10.jpg"
+      {
+        "img": "/workImages/paint7.jpg",
+        "alt": "work Image 1",
+        "class": "One"
+      },
+      {
+        "img": "/workImages/paint8.jpg",
+        "alt": "work Image 8",
+        "class": "Two"
+      },
+      {
+        "img": "/workImages/paint9.jpg",
+        "alt": "work Image 9",
+        "class": "Three"
+      },
+      {
+        "img": "/workImages/paint10.jpg",
+        "alt": "work Image 10",
+        "class": "Four"
+      }
     ],
     "longDescription": "This will be a longer description of each project for the pop up gallery",
     "bgColor": "#8C7386",
@@ -58,10 +106,26 @@
     "shortDescription": "This is project 4",
     "link": "Show More",
     "galleryworkImages": [
-      "/workImages/paint7.jpg",
-      "/workImages/paint8.jpg",
-      "/workImages/paint9.jpg",
-      "/workImages/paint10.jpg"
+      {
+        "img": "/workImages/paint7.jpg",
+        "alt": "work Image 1",
+        "class": "One"
+      },
+      {
+        "img": "/workImages/paint8.jpg",
+        "alt": "work Image 8",
+        "class": "Two"
+      },
+      {
+        "img": "/workImages/paint9.jpg",
+        "alt": "work Image 9",
+        "class": "Three"
+      },
+      {
+        "img": "/workImages/paint10.jpg",
+        "alt": "work Image 10",
+        "class": "Four"
+      }
     ],
     "longDescription": "This will be a longer description of each project for the pop up gallery",
     "bgColor": "#F7CE76",
@@ -75,10 +139,26 @@
     "shortDescription": "This is project 5",
     "link": "Show More",
     "galleryworkImages": [
-      "/workImages/paint7.jpg",
-      "/workImages/paint8.jpg",
-      "/workImages/paint9.jpg",
-      "/workImages/paint10.jpg"
+      {
+        "img": "/workImages/paint7.jpg",
+        "alt": "work Image 1",
+        "class": "One"
+      },
+      {
+        "img": "/workImages/paint8.jpg",
+        "alt": "work Image 8",
+        "class": "Two"
+      },
+      {
+        "img": "/workImages/paint9.jpg",
+        "alt": "work Image 9",
+        "class": "Three"
+      },
+      {
+        "img": "/workImages/paint10.jpg",
+        "alt": "work Image 10",
+        "class": "Four"
+      }
     ],
     "longDescription": "This will be a longer description of each project for the pop up gallery",
     "bgColor": "#9C9359",
@@ -92,10 +172,26 @@
     "shortDescription": "This is project 6",
     "link": "Show More",
     "galleryworkImages": [
-      "/workImages/paint7.jpg",
-      "/workImages/paint8.jpg",
-      "/workImages/paint9.jpg",
-      "/workImages/paint10.jpg"
+      {
+        "img": "/workImages/paint7.jpg",
+        "alt": "work Image 1",
+        "class": "One"
+      },
+      {
+        "img": "/workImages/paint8.jpg",
+        "alt": "work Image 8",
+        "class": "Two"
+      },
+      {
+        "img": "/workImages/paint9.jpg",
+        "alt": "work Image 9",
+        "class": "Three"
+      },
+      {
+        "img": "/workImages/paint10.jpg",
+        "alt": "work Image 10",
+        "class": "Four"
+      }
     ],
     "longDescription": "This will be a longer description of each project for the pop up gallery",
     "bgColor": "#c1bbdd",

@@ -13,7 +13,8 @@
       "/workImages/paint10.jpg"
     ],
     "longDescription": "This will be a longer description of each project for the pop up gallery",
-    "bgColor": "#fd8a8a"
+    "bgColor": "#4382BB",
+    "color": "white"
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
       "/workImages/paint10.jpg"
     ],
     "longDescription": "This will be a longer description of each project for the pop up gallery",
-    "bgColor": "#a8d1d1"
+    "bgColor": "#E4CEE0",
+    "color": "black"
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
       "/workImages/paint10.jpg"
     ],
     "longDescription": "This will be a longer description of each project for the pop up gallery",
-    "bgColor": "#ffcbcb"
+    "bgColor": "#8C7386",
+    "color": "white"
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
       "/workImages/paint10.jpg"
     ],
     "longDescription": "This will be a longer description of each project for the pop up gallery",
-    "bgColor": "#dfebeb"
+    "bgColor": "#F7CE76",
+    "color": "black"
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
       "/workImages/paint10.jpg"
     ],
     "longDescription": "This will be a longer description of each project for the pop up gallery",
-    "bgColor": "#9fa1d4"
+    "bgColor": "#9C9359",
+    "color": "white"
   },
   {
     "id": 6,
@@ -93,6 +98,7 @@
       "/workImages/paint10.jpg"
     ],
     "longDescription": "This will be a longer description of each project for the pop up gallery",
-    "bgColor": "#c1bbdd"
+    "bgColor": "#c1bbdd",
+    "color": "black"
   }
 ]

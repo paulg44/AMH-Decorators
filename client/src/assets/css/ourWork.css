@@ -142,9 +142,11 @@
       .galleryCard {
         &.cardOne {
           grid-column: span 3;
+          grid-row: span 2;
         }
         &.cardTwo {
           grid-column: span 2;
+          grid-row: span 2;
         }
         &.cardThree {
           grid-column: span 2;
@@ -158,6 +160,16 @@
         }
         &.cardSix {
           grid-column: span 2;
+        }
+
+        .metadata {
+          justify-content: space-evenly;
+          p {
+            display: none;
+          }
+          .metadataBtn {
+            padding: 5px 10px;
+          }
         }
       }
     }

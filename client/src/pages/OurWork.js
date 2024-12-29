@@ -24,14 +24,16 @@ function OurWork() {
             />
             <div
               className="metadata"
-              style={{ backgroundColor: `${project.bgColor}` }}
+              style={{
+                backgroundColor: `${project.bgColor}`,
+                color: `${project.color}`,
+              }}
             >
-              <h3>
-                Project <span>{project.title}</span>
-              </h3>
+              <h3>Project {project.title}</h3>
               <p>{project.shortDescription}</p>
               <button
                 className="metadataBtn"
+                // style={{ ba }}
                 onClick={() => setOpen((o) => !o)}
               >
                 {project.link}

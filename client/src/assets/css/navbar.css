@@ -61,6 +61,7 @@
 
         a {
           display: inline-block;
+          letter-spacing: 3px;
           color: var(--dark-color);
           font-weight: 600;
           font-size: 22px;

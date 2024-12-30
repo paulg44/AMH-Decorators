@@ -31,26 +31,38 @@ function OurWork() {
               }}
             >
               <h3>Project {project.title}</h3>
-              <p>{project.shortDescription}</p>
+              <p className="popOverP">{project.shortDescription}</p>
               <button className="metadataBtn" onClick={togglePopUp}>
                 {project.link}
               </button>
-              <div className={`popUpGallery ${open ? "open" : ""}`}>
-                <button className="close" onClick={closePopUp}>
-                  &times;
-                </button>
-                <p className="popUpDescription">{project.longDescription}</p>
-                <div className="popUpImageContainer">
-                  {project.galleryworkImages.map((galleryImage, index) => (
-                    <div
-                      key={index}
-                      className={`popUpCard popUp${galleryImage.class}`}
-                    >
-                      <img src={galleryImage.img} alt={galleryImage.alt} />
+
+              {/* Pop Up */}
+              {open && (
+                <>
+                  <div
+                    className="backgroundOverlay"
+                    onClick={() => setOpen(false)}
+                  ></div>
+                  <div className={`popUpGallery ${open ? "open" : ""}`}>
+                    <button className="close" onClick={closePopUp}>
+                      &times;
+                    </button>
+                    <p className="popUpDescription">
+                      {project.longDescription}
+                    </p>
+                    <div className="popUpImageContainer">
+                      {project.galleryworkImages.map((galleryImage, index) => (
+                        <div
+                          key={index}
+                          className={`popUpCard popUp${galleryImage.class}`}
+                        >
+                          <img src={galleryImage.img} alt={galleryImage.alt} />
+                        </div>
+                      ))}
                     </div>
-                  ))}
-                </div>
-              </div>
+                  </div>
+                </>
+              )}
             </div>
           </div>
         ))}

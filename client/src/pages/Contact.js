@@ -1,5 +1,4 @@
 import "../assets/css/contact.css";
-import { Link } from "react-router-dom";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 function Contact() {
@@ -13,12 +12,17 @@ function Contact() {
         <div className="container email card">
           <FaEnvelope className="faEnvelope" />
           <p>Please email us and we will get back to as soon as possible.</p>
-          <Link to={"/"}>AMH Decorating</Link>
+          <a href="mailto:A.M.H_Decorating@mail.com">
+            A.M.H_Decorating@mail.com
+          </a>
         </div>
         <div className="container phone card">
           <FaPhone className="faPhone" />
           <p>Alternatively, give us a call to discuss your next project.</p>
-          <Link to={"/"}>07806691333</Link>
+          <div className="contactNumbers">
+            <a href="tel:07436814786">07436814786</a>
+            <a href="tel:01332 669822">01332 669822</a>
+          </div>
         </div>
       </div>
     </div>

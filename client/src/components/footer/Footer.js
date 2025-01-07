@@ -44,7 +44,7 @@ function Footer() {
         <p>
           Website designed & created by{" "}
           <a href="https://paulgarton.com/" rel="noreferrer" target="_blank">
-            Paul Garton
+            PG
           </a>
         </p>
       </div>

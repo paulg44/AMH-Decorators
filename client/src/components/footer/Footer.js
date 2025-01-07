@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <h6>AMH Decorating</h6>
+        <h6>AMH Decorating &copy; 2025</h6>
         <ul>
           <li>
             <FaFacebook className="icon" />
@@ -41,7 +41,12 @@ function Footer() {
             </a>
           </li> */}
         </ul>
-        <p>Website designed & created by PG Design</p>
+        <p>
+          Website designed & created by{" "}
+          <a href="https://paulgarton.com/" rel="noreferrer" target="_blank">
+            Paul Garton
+          </a>
+        </p>
       </div>
     </footer>
   );

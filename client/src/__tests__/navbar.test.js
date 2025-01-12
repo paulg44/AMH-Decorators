@@ -3,7 +3,7 @@ import { MemoryRouter } from "react-router-dom";
 import user from "@testing-library/user-event";
 import Navbar from "../components/navbar/Navbar.js";
 
-test("navigates to the about page when about link is clicked", async () => {
+test("navigates to the about page when about link is clicked", () => {
   render(
     <MemoryRouter>
       <Navbar />

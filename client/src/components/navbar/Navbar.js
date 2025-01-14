@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../../assets/css/navbar.css";
 import { useState } from "react";
 import { FaBars, FaTimesCircle } from "react-icons/fa";
@@ -8,6 +8,12 @@ function Navbar() {
 
   const handleToggleNavMenu = () => {
     setNavMenuOpen((prevState) => !prevState);
+  };
+
+  const activeState = ({ isActive }) => {
+    return {
+      borderBottom: isActive ? "2px solid #949398ff" : "",
+    };
   };
 
   return (
@@ -26,21 +32,37 @@ function Navbar() {
               onClick={handleToggleNavMenu}
             />
           )}
-          <Link to={"/"} onClick={handleToggleNavMenu}>
+          <NavLink to={"/"} onClick={handleToggleNavMenu} style={activeState}>
             Home
-          </Link>
-          <Link to={"/about"} onClick={handleToggleNavMenu}>
+          </NavLink>
+          <NavLink
+            to={"/about"}
+            onClick={handleToggleNavMenu}
+            style={activeState}
+          >
             About
-          </Link>
-          <Link to={"/services"} onClick={handleToggleNavMenu}>
+          </NavLink>
+          <NavLink
+            to={"/services"}
+            onClick={handleToggleNavMenu}
+            style={activeState}
+          >
             Services
-          </Link>
-          <Link to={"/ourWork"} onClick={handleToggleNavMenu}>
+          </NavLink>
+          <NavLink
+            to={"/ourWork"}
+            onClick={handleToggleNavMenu}
+            style={activeState}
+          >
             Our Work
-          </Link>
-          <Link to={"/contact"} onClick={handleToggleNavMenu}>
+          </NavLink>
+          <NavLink
+            to={"/contact"}
+            onClick={handleToggleNavMenu}
+            style={activeState}
+          >
             Contact
-          </Link>
+          </NavLink>
         </ul>
       </div>
     </nav>

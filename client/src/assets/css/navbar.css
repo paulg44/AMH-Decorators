@@ -22,6 +22,10 @@
       &:hover {
         border-bottom: 2px solid var(--bright-color);
       }
+
+      &:active {
+        border-bottom: 2px solid var(--bright-color);
+      }
     }
   }
 
@@ -68,7 +72,7 @@
           width: 50%;
           margin-left: 20px;
           text-align: center;
-          border-bottom: 2px solid var(--dull-color);
+          border-bottom: 2px solid var(--dark-color);
         }
       }
     }

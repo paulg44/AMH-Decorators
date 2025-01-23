@@ -1,6 +1,7 @@
 import "../assets/css/ourWork.css";
 import data from "../assets/data/work.json";
 import { useState } from "react";
+import SEO from "../components/seo/SEO.js";
 
 function OurWork() {
   const [open, setOpen] = useState(false);
@@ -10,6 +11,12 @@ function OurWork() {
 
   return (
     <div className="ourWorkPage">
+      <SEO
+        title="Our Work | Painting & Decorating Services"
+        description="View our work gallery of images and content"
+        keywords="painting, decorating, home improvement, professional painters"
+        url="https://amhdecorating.co.uk/ourWork"
+      />
       <div className="pageHeader">
         <h2>
           Our Wo<span>r</span>k

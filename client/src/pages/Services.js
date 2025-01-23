@@ -1,9 +1,16 @@
 import "../assets/css/services.css";
 import { FaCalculator, FaPenSquare } from "react-icons/fa";
+import SEO from "../components/seo/SEO.js";
 
 function Services() {
   return (
     <div className="servicesContent pageHeader container services">
+      <SEO
+        title="Services | Painting & Decorating Services"
+        description="Professional painting and decorating services. These are a selection of the services that we offer"
+        keywords="painting, decorating, home improvement, professional painters, repairs, wallpaper, paperhanging"
+        url="https://amhdecorating.co.uk/services"
+      />
       <h2>
         S<span>e</span>rvices
       </h2>

@@ -1,9 +1,16 @@
 import "../assets/css/contact.css";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
+import SEO from "../components/seo/SEO.js";
 
 function Contact() {
   return (
     <div className="pageHeader container contact">
+      <SEO
+        title="Contact | Painting & Decorating Services"
+        description="Please contact us for all your painting and decorating needs"
+        keywords="painting, decorating, home improvement, professional painters. contact"
+        url="https://amhdecorating.co.uk/contact"
+      />
       <h2>
         C<span>o</span>ntact
       </h2>

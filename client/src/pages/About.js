@@ -1,8 +1,15 @@
 import "../assets/css/about.css";
+import SEO from "../components/seo/SEO.js";
 
 function About() {
   return (
     <div className="about">
+      <SEO
+        title="About Us | Painting & Decorating Services"
+        description="Learn more about our journey, values, and commitment to quality."
+        keywords="painting services, decorating, home renovation"
+        url="https://amhdecorating.co.uk/about"
+      />
       <div className="aboutContent pageHeader">
         <h2>
           A<span>b</span>out
